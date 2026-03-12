@@ -1,0 +1,12 @@
+C:\Users\MSI\source\repos\Du Lieu Hoc Tap C#\Winform\QLSV\obj\Debug\QLSV.csproj.AssemblyReference.cache
+C:\Users\MSI\source\repos\Du Lieu Hoc Tap C#\Winform\QLSV\obj\Debug\QLSV.Properties.Resources.resources
+C:\Users\MSI\source\repos\Du Lieu Hoc Tap C#\Winform\QLSV\obj\Debug\QLSV.csproj.GenerateResource.cache
+C:\Users\MSI\source\repos\Du Lieu Hoc Tap C#\Winform\QLSV\obj\Debug\QLSV.csproj.CoreCompileInputs.cache
+C:\Users\MSI\source\repos\Du Lieu Hoc Tap C#\Winform\QLSV\obj\Debug\QLSV.frm_login.resources
+C:\Users\MSI\source\repos\Du Lieu Hoc Tap C#\Winform\QLSV\obj\Debug\QLSV.frm_main.resources
+C:\Users\MSI\source\repos\Du Lieu Hoc Tap C#\Winform\QLSV\bin\Debug\QLSV.exe.config
+C:\Users\MSI\source\repos\Du Lieu Hoc Tap C#\Winform\QLSV\bin\Debug\QLSV.exe
+C:\Users\MSI\source\repos\Du Lieu Hoc Tap C#\Winform\QLSV\bin\Debug\QLSV.pdb
+C:\Users\MSI\source\repos\Du Lieu Hoc Tap C#\Winform\QLSV\obj\Debug\QLSV.exe
+C:\Users\MSI\source\repos\Du Lieu Hoc Tap C#\Winform\QLSV\obj\Debug\QLSV.pdb
+C:\Users\MSI\source\repos\Du Lieu Hoc Tap C#\Winform\QLSV\obj\Debug\QLSV.QuanLyLop.resources
