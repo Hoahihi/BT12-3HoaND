@@ -22,7 +22,7 @@ namespace QLSV
         {
             string username = Username_tbx.Text;
             string password = Password_tbx.Text;
-            if (username == "thayHieuLX" && password == "123456")
+            if (username == "" && password == "")
             {
                 //dang nhap thanh cong
                 //chuyen den form chinh

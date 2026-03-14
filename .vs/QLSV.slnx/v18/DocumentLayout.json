@@ -1,7 +1,36 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\MSI\\source\\repos\\Du Lieu Hoc Tap C#\\Winform\\QLSV\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A178A2D1-7423-41B6-8D96-4B8470BC4AA7}|QLSV.csproj|c:\\users\\msi\\source\\repos\\du lieu hoc tap c#\\winform\\qlsv\\frm_main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A178A2D1-7423-41B6-8D96-4B8470BC4AA7}|QLSV.csproj|solutionrelative:frm_main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A178A2D1-7423-41B6-8D96-4B8470BC4AA7}|QLSV.csproj|C:\\Users\\MSI\\source\\repos\\Du Lieu Hoc Tap C#\\Winform\\QLSV\\frm_main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A178A2D1-7423-41B6-8D96-4B8470BC4AA7}|QLSV.csproj|solutionrelative:frm_main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A178A2D1-7423-41B6-8D96-4B8470BC4AA7}|QLSV.csproj|c:\\users\\msi\\source\\repos\\du lieu hoc tap c#\\winform\\qlsv\\frm_main.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A178A2D1-7423-41B6-8D96-4B8470BC4AA7}|QLSV.csproj|solutionrelative:frm_main.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A178A2D1-7423-41B6-8D96-4B8470BC4AA7}|QLSV.csproj|C:\\Users\\MSI\\source\\repos\\Du Lieu Hoc Tap C#\\Winform\\QLSV\\quanlylop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A178A2D1-7423-41B6-8D96-4B8470BC4AA7}|QLSV.csproj|solutionrelative:quanlylop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A178A2D1-7423-41B6-8D96-4B8470BC4AA7}|QLSV.csproj|C:\\Users\\MSI\\source\\repos\\Du Lieu Hoc Tap C#\\Winform\\QLSV\\quanlylop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A178A2D1-7423-41B6-8D96-4B8470BC4AA7}|QLSV.csproj|solutionrelative:quanlylop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A178A2D1-7423-41B6-8D96-4B8470BC4AA7}|QLSV.csproj|C:\\Users\\MSI\\source\\repos\\Du Lieu Hoc Tap C#\\Winform\\QLSV\\frm_login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A178A2D1-7423-41B6-8D96-4B8470BC4AA7}|QLSV.csproj|solutionrelative:frm_login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A178A2D1-7423-41B6-8D96-4B8470BC4AA7}|QLSV.csproj|C:\\Users\\MSI\\source\\repos\\Du Lieu Hoc Tap C#\\Winform\\QLSV\\frm_login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A178A2D1-7423-41B6-8D96-4B8470BC4AA7}|QLSV.csproj|solutionrelative:frm_login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,8 +38,22 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "frm_main.cs",
+              "DocumentMoniker": "C:\\Users\\MSI\\source\\repos\\Du Lieu Hoc Tap C#\\Winform\\QLSV\\frm_main.cs",
+              "RelativeDocumentMoniker": "frm_main.cs",
+              "ToolTip": "C:\\Users\\MSI\\source\\repos\\Du Lieu Hoc Tap C#\\Winform\\QLSV\\frm_main.cs",
+              "RelativeToolTip": "frm_main.cs",
+              "ViewState": "AgIAAGYAAAAAAAAAAAAQwIYAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-13T00:21:22.316Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
@@ -20,8 +63,79 @@
               "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{c6f34f0d-7ae5-4f3a-be61-fe0c21ae9eb8}"
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "frm_main.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\MSI\\source\\repos\\Du Lieu Hoc Tap C#\\Winform\\QLSV\\frm_main.Designer.cs",
+              "RelativeDocumentMoniker": "frm_main.Designer.cs",
+              "ToolTip": "C:\\Users\\MSI\\source\\repos\\Du Lieu Hoc Tap C#\\Winform\\QLSV\\frm_main.Designer.cs",
+              "RelativeToolTip": "frm_main.Designer.cs",
+              "ViewState": "AgIAAJ4AAAAAAAAAAAAQwLEAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-14T12:44:10.481Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "QuanLyLop.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\MSI\\source\\repos\\Du Lieu Hoc Tap C#\\Winform\\QLSV\\QuanLyLop.cs",
+              "RelativeDocumentMoniker": "QuanLyLop.cs",
+              "ToolTip": "C:\\Users\\MSI\\source\\repos\\Du Lieu Hoc Tap C#\\Winform\\QLSV\\QuanLyLop.cs [Design]",
+              "RelativeToolTip": "QuanLyLop.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-12T23:39:21.285Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "frm_login.cs",
+              "DocumentMoniker": "C:\\Users\\MSI\\source\\repos\\Du Lieu Hoc Tap C#\\Winform\\QLSV\\frm_login.cs",
+              "RelativeDocumentMoniker": "frm_login.cs",
+              "ToolTip": "C:\\Users\\MSI\\source\\repos\\Du Lieu Hoc Tap C#\\Winform\\QLSV\\frm_login.cs",
+              "RelativeToolTip": "frm_login.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAAABcAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-13T01:10:07.376Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "frm_main.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\MSI\\source\\repos\\Du Lieu Hoc Tap C#\\Winform\\QLSV\\frm_main.cs",
+              "RelativeDocumentMoniker": "frm_main.cs",
+              "ToolTip": "C:\\Users\\MSI\\source\\repos\\Du Lieu Hoc Tap C#\\Winform\\QLSV\\frm_main.cs [Design]",
+              "RelativeToolTip": "frm_main.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-12T23:47:34.795Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "QuanLyLop.cs",
+              "DocumentMoniker": "C:\\Users\\MSI\\source\\repos\\Du Lieu Hoc Tap C#\\Winform\\QLSV\\QuanLyLop.cs",
+              "RelativeDocumentMoniker": "QuanLyLop.cs",
+              "ToolTip": "C:\\Users\\MSI\\source\\repos\\Du Lieu Hoc Tap C#\\Winform\\QLSV\\QuanLyLop.cs",
+              "RelativeToolTip": "QuanLyLop.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAYwB8AAABbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-13T01:06:05.891Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "frm_login.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\MSI\\source\\repos\\Du Lieu Hoc Tap C#\\Winform\\QLSV\\frm_login.cs",
+              "RelativeDocumentMoniker": "frm_login.cs",
+              "ToolTip": "C:\\Users\\MSI\\source\\repos\\Du Lieu Hoc Tap C#\\Winform\\QLSV\\frm_login.cs [Design]",
+              "RelativeToolTip": "frm_login.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-13T00:04:03.106Z",
+              "EditorCaption": " [Design]"
             }
           ]
         }

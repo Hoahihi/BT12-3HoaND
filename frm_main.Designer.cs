@@ -47,11 +47,6 @@
             this.Tim_tbx = new System.Windows.Forms.TextBox();
             this.Quanlylop_btn = new System.Windows.Forms.Button();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.STTcol = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.MSSVcol = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Hovatencol = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Datecol = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Lopcol = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Thoat_btn = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
             this.splitContainer1.Panel1.SuspendLayout();
@@ -82,7 +77,6 @@
             this.splitContainer1.Panel1.Controls.Add(this.txtName);
             this.splitContainer1.Panel1.Controls.Add(this.MSSV_tbx);
             this.splitContainer1.Panel1.Controls.Add(this.txtMSSV);
-            this.splitContainer1.Panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.splitContainer1_Panel1_Paint);
             // 
             // splitContainer1.Panel2
             // 
@@ -93,7 +87,6 @@
             this.splitContainer1.Panel2.Controls.Add(this.Quanlylop_btn);
             this.splitContainer1.Panel2.Controls.Add(this.dataGridView1);
             this.splitContainer1.Panel2.Controls.Add(this.Thoat_btn);
-            this.splitContainer1.Panel2.Paint += new System.Windows.Forms.PaintEventHandler(this.splitContainer1_Panel2_Paint);
             this.splitContainer1.Size = new System.Drawing.Size(1068, 588);
             this.splitContainer1.SplitterDistance = 355;
             this.splitContainer1.TabIndex = 1;
@@ -133,7 +126,6 @@
             this.dateTimePicker1.Name = "dateTimePicker1";
             this.dateTimePicker1.Size = new System.Drawing.Size(307, 22);
             this.dateTimePicker1.TabIndex = 2;
-            this.dateTimePicker1.ValueChanged += new System.EventHandler(this.dateTimePicker1_ValueChanged);
             // 
             // label1
             // 
@@ -211,6 +203,7 @@
             // 
             // MSSV_tbx
             // 
+            this.MSSV_tbx.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.MSSV_tbx.Location = new System.Drawing.Point(25, 104);
             this.MSSV_tbx.Name = "MSSV_tbx";
             this.MSSV_tbx.Size = new System.Drawing.Size(311, 22);
@@ -259,7 +252,7 @@
             // 
             this.Quanlylop_btn.BackColor = System.Drawing.Color.IndianRed;
             this.Quanlylop_btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Quanlylop_btn.Location = new System.Drawing.Point(35, 515);
+            this.Quanlylop_btn.Location = new System.Drawing.Point(10, 515);
             this.Quanlylop_btn.Name = "Quanlylop_btn";
             this.Quanlylop_btn.Size = new System.Drawing.Size(170, 49);
             this.Quanlylop_btn.TabIndex = 10;
@@ -270,54 +263,13 @@
             // dataGridView1
             // 
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.STTcol,
-            this.MSSVcol,
-            this.Hovatencol,
-            this.Datecol,
-            this.Lopcol});
-            this.dataGridView1.Location = new System.Drawing.Point(34, 76);
+            this.dataGridView1.Location = new System.Drawing.Point(10, 76);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.RowTemplate.Height = 24;
             this.dataGridView1.Size = new System.Drawing.Size(672, 433);
             this.dataGridView1.TabIndex = 100;
-            this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
-            // 
-            // STTcol
-            // 
-            this.STTcol.HeaderText = "STT";
-            this.STTcol.MinimumWidth = 6;
-            this.STTcol.Name = "STTcol";
-            this.STTcol.Width = 125;
-            // 
-            // MSSVcol
-            // 
-            this.MSSVcol.HeaderText = "MSSV";
-            this.MSSVcol.MinimumWidth = 6;
-            this.MSSVcol.Name = "MSSVcol";
-            this.MSSVcol.Width = 125;
-            // 
-            // Hovatencol
-            // 
-            this.Hovatencol.HeaderText = "Họ và tên";
-            this.Hovatencol.MinimumWidth = 6;
-            this.Hovatencol.Name = "Hovatencol";
-            this.Hovatencol.Width = 125;
-            // 
-            // Datecol
-            // 
-            this.Datecol.HeaderText = "Ngày sinh";
-            this.Datecol.MinimumWidth = 6;
-            this.Datecol.Name = "Datecol";
-            this.Datecol.Width = 125;
-            // 
-            // Lopcol
-            // 
-            this.Lopcol.HeaderText = "Lớp";
-            this.Lopcol.MinimumWidth = 6;
-            this.Lopcol.Name = "Lopcol";
-            this.Lopcol.Width = 125;
+            this.dataGridView1.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellClick);
             // 
             // Thoat_btn
             // 
@@ -339,6 +291,7 @@
             this.Name = "frm_main";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "frm";
+            this.Load += new System.EventHandler(this.frm_main_Load);
             this.splitContainer1.Panel1.ResumeLayout(false);
             this.splitContainer1.Panel1.PerformLayout();
             this.splitContainer1.Panel2.ResumeLayout(false);
@@ -350,7 +303,7 @@
 
         }
 
-        #endregion
+        #endregion 
 
         private System.Windows.Forms.SplitContainer splitContainer1;
         private System.Windows.Forms.TextBox Name_tbx;
@@ -367,11 +320,6 @@
         private System.Windows.Forms.TextBox Class_tbx;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.DataGridView dataGridView1;
-        private System.Windows.Forms.DataGridViewTextBoxColumn STTcol;
-        private System.Windows.Forms.DataGridViewTextBoxColumn MSSVcol;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Hovatencol;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Datecol;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Lopcol;
         private System.Windows.Forms.Button Lammoi_btn;
         private System.Windows.Forms.Button Quanlylop_btn;
         private System.Windows.Forms.Label label4;
