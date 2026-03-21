@@ -12,11 +12,11 @@ using System.Data.SqlClient;
 
 namespace QLSV
 {
-    public partial class QuanLyLop : Form
+    public partial class frm_QuanLyLopBACKUP : Form
     {
 
         string connectionString = @"Data Source=.\SQLEXPRESS;Initial Catalog=QLSV_DB;Integrated Security=True;";
-        public QuanLyLop()
+        public frm_QuanLyLopBACKUP()
         {
             InitializeComponent();  
             dataGridView1.AllowUserToAddRows = false;
@@ -29,7 +29,7 @@ namespace QLSV
                 {
                     conn.Open();
                     // Lấy 4 cột từ bảng Lop trong SQL
-                    string query = "SELECT L.IdLop,L.TenLop, L.SoSV, L.Note FROM Lop as L";
+                    string query = "SELECT L.IdLop,L.TenLop, L.Note FROM Lop as L";
                     SqlDataAdapter da = new SqlDataAdapter(query, conn);
                     DataTable dt = new DataTable();
                     da.Fill(dt);
@@ -51,34 +51,29 @@ namespace QLSV
 
         private void Them1_btn_Click(object sender, EventArgs e)
         {
-          
             if (string.IsNullOrWhiteSpace(IDLop_tbx.Text) || string.IsNullOrWhiteSpace(textBox1.Text))
             {
                 MessageBox.Show("Vui lòng nhập ít nhất ID Lớp và Tên Lớp!");
                 return;
             }
 
-            
-            int soSV = 0;
-            int.TryParse(SoSV_tbx.Text, out soSV);
-
             using (SqlConnection conn = new SqlConnection(connectionString))
             {
                 try
                 {
                     conn.Open();
-                    string query = "INSERT INTO Lop (IdLop, TenLop, SoSV, Note) VALUES (@id, @ten, @sosv, @note)";
+                    // Đã xóa SoSV khỏi câu lệnh INSERT
+                    string query = "INSERT INTO Lop (IdLop, TenLop, Note) VALUES (@id, @ten, @note)";
                     SqlCommand cmd = new SqlCommand(query, conn);
 
                     cmd.Parameters.AddWithValue("@id", IDLop_tbx.Text.Trim());
-                    cmd.Parameters.AddWithValue("@ten", textBox1.Text.Trim()); //tb1 là ô tên lớp
-                    cmd.Parameters.AddWithValue("@sosv", soSV);
+                    cmd.Parameters.AddWithValue("@ten", textBox1.Text.Trim());
                     cmd.Parameters.AddWithValue("@note", Note_tbx.Text.Trim());
 
                     cmd.ExecuteNonQuery();
                     MessageBox.Show("Thêm lớp thành công!");
-                    LoadData(); //load lại bảng mà kh xóa code như cách cũ
-                    Lammoi1_btn_Click(sender, e); // Xóa trắng form
+                    LoadData();
+                    Lammoi1_btn_Click(sender, e);
                 }
                 catch (Exception)
                 {
@@ -86,6 +81,7 @@ namespace QLSV
                 }
             }
         }
+
         private void Sua2_btn_Click(object sender, EventArgs e)
         {
             if (string.IsNullOrWhiteSpace(IDLop_tbx.Text))
@@ -94,20 +90,16 @@ namespace QLSV
                 return;
             }
 
-            int soSV = 0;
-            int.TryParse(SoSV_tbx.Text, out soSV);
-
             using (SqlConnection conn = new SqlConnection(connectionString))
             {
                 try
                 {
                     conn.Open();
-                    string query = "UPDATE Lop SET TenLop = @ten, SoSV = @sosv, Note = @note WHERE IdLop = @id";
+                    string query = "UPDATE Lop SET TenLop = @ten, Note = @note WHERE IdLop = @id";
                     SqlCommand cmd = new SqlCommand(query, conn);
 
                     cmd.Parameters.AddWithValue("@id", IDLop_tbx.Text.Trim());
                     cmd.Parameters.AddWithValue("@ten", textBox1.Text.Trim());
-                    cmd.Parameters.AddWithValue("@sosv", soSV);
                     cmd.Parameters.AddWithValue("@note", Note_tbx.Text.Trim());
 
                     cmd.ExecuteNonQuery();
@@ -121,6 +113,7 @@ namespace QLSV
                 }
             }
         }
+
         private void Xoa1_btn_Click(object sender, EventArgs e)
         {
             if (string.IsNullOrWhiteSpace(IDLop_tbx.Text))
@@ -157,12 +150,11 @@ namespace QLSV
         {
             IDLop_tbx.Clear();
             textBox1.Clear();
-            SoSV_tbx.Clear();
             Note_tbx.Clear();
-            IDLop_tbx.Enabled = true; //mở lại ô id để có thể chỉnh sửa và thao tác
+
+            IDLop_tbx.Enabled = true;
             IDLop_tbx.Focus();
         }
-
 
         private void dataGridView1_CellClick(object sender, DataGridViewCellEventArgs e)
         {
@@ -171,15 +163,11 @@ namespace QLSV
                 DataGridViewRow row = dataGridView1.Rows[e.RowIndex];
                 IDLop_tbx.Text = row.Cells[0].Value.ToString();
                 textBox1.Text = row.Cells[1].Value.ToString();
-                SoSV_tbx.Text = row.Cells[2].Value.ToString();
-                Note_tbx.Text = row.Cells[3].Value.ToString();
-                IDLop_tbx.Enabled = false; //code kh cho sửa id lớp (rất key)
-            }
-        }
 
-        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
-        {
-            dataGridView1.AllowUserToAddRows = false;
+                Note_tbx.Text = row.Cells[2].Value.ToString();
+
+                IDLop_tbx.Enabled = false;
+            }
         }
 
         private void QuanLyLop_Load(object sender, EventArgs e)

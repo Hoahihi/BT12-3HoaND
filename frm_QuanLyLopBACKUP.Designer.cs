@@ -1,6 +1,6 @@
 ﻿namespace QLSV
 {
-    partial class QuanLyLop
+    partial class frm_QuanLyLopBACKUP
     {
         
         /// <summary>
@@ -37,9 +37,7 @@
             this.Note_tbx = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
-            this.SoSV_tbx = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
             this.IDLop_tbx = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
@@ -68,9 +66,7 @@
             this.splitContainer1.Panel1.Controls.Add(this.Note_tbx);
             this.splitContainer1.Panel1.Controls.Add(this.label5);
             this.splitContainer1.Panel1.Controls.Add(this.textBox1);
-            this.splitContainer1.Panel1.Controls.Add(this.SoSV_tbx);
             this.splitContainer1.Panel1.Controls.Add(this.label3);
-            this.splitContainer1.Panel1.Controls.Add(this.label4);
             this.splitContainer1.Panel1.Controls.Add(this.IDLop_tbx);
             this.splitContainer1.Panel1.Controls.Add(this.label2);
             this.splitContainer1.Panel1.Controls.Add(this.label1);
@@ -79,8 +75,8 @@
             // 
             this.splitContainer1.Panel2.Controls.Add(this.Quaylai_btn);
             this.splitContainer1.Panel2.Controls.Add(this.dataGridView1);
-            this.splitContainer1.Size = new System.Drawing.Size(1016, 531);
-            this.splitContainer1.SplitterDistance = 338;
+            this.splitContainer1.Size = new System.Drawing.Size(1034, 555);
+            this.splitContainer1.SplitterDistance = 343;
             this.splitContainer1.TabIndex = 0;
             // 
             // Lammoi1_btn
@@ -90,7 +86,7 @@
             this.Lammoi1_btn.Location = new System.Drawing.Point(183, 468);
             this.Lammoi1_btn.Name = "Lammoi1_btn";
             this.Lammoi1_btn.Size = new System.Drawing.Size(140, 49);
-            this.Lammoi1_btn.TabIndex = 5;
+            this.Lammoi1_btn.TabIndex = 8;
             this.Lammoi1_btn.Text = "Làm mới";
             this.Lammoi1_btn.UseVisualStyleBackColor = false;
             this.Lammoi1_btn.Click += new System.EventHandler(this.Lammoi1_btn_Click);
@@ -102,7 +98,7 @@
             this.Xoa1_btn.Location = new System.Drawing.Point(12, 468);
             this.Xoa1_btn.Name = "Xoa1_btn";
             this.Xoa1_btn.Size = new System.Drawing.Size(137, 49);
-            this.Xoa1_btn.TabIndex = 4;
+            this.Xoa1_btn.TabIndex = 7;
             this.Xoa1_btn.Text = "Xóa";
             this.Xoa1_btn.UseVisualStyleBackColor = false;
             this.Xoa1_btn.Click += new System.EventHandler(this.Xoa1_btn_Click);
@@ -114,7 +110,7 @@
             this.Sua2_btn.Location = new System.Drawing.Point(183, 395);
             this.Sua2_btn.Name = "Sua2_btn";
             this.Sua2_btn.Size = new System.Drawing.Size(140, 49);
-            this.Sua2_btn.TabIndex = 3;
+            this.Sua2_btn.TabIndex = 6;
             this.Sua2_btn.Text = "Sửa";
             this.Sua2_btn.UseVisualStyleBackColor = false;
             this.Sua2_btn.Click += new System.EventHandler(this.Sua2_btn_Click);
@@ -126,24 +122,24 @@
             this.Them1_btn.Location = new System.Drawing.Point(12, 395);
             this.Them1_btn.Name = "Them1_btn";
             this.Them1_btn.Size = new System.Drawing.Size(137, 49);
-            this.Them1_btn.TabIndex = 2;
+            this.Them1_btn.TabIndex = 5;
             this.Them1_btn.Text = "Thêm";
             this.Them1_btn.UseVisualStyleBackColor = false;
             this.Them1_btn.Click += new System.EventHandler(this.Them1_btn_Click);
             // 
             // Note_tbx
             // 
-            this.Note_tbx.Location = new System.Drawing.Point(96, 253);
+            this.Note_tbx.Location = new System.Drawing.Point(96, 212);
             this.Note_tbx.Multiline = true;
             this.Note_tbx.Name = "Note_tbx";
             this.Note_tbx.Size = new System.Drawing.Size(203, 124);
-            this.Note_tbx.TabIndex = 1;
+            this.Note_tbx.TabIndex = 4;
             // 
             // label5
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(30, 275);
+            this.label5.Location = new System.Drawing.Point(33, 257);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(40, 16);
             this.label5.TabIndex = 3;
@@ -154,14 +150,7 @@
             this.textBox1.Location = new System.Drawing.Point(96, 151);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(203, 22);
-            this.textBox1.TabIndex = 1;
-            // 
-            // SoSV_tbx
-            // 
-            this.SoSV_tbx.Location = new System.Drawing.Point(96, 211);
-            this.SoSV_tbx.Name = "SoSV_tbx";
-            this.SoSV_tbx.Size = new System.Drawing.Size(203, 22);
-            this.SoSV_tbx.TabIndex = 0;
+            this.textBox1.TabIndex = 2;
             // 
             // label3
             // 
@@ -173,22 +162,12 @@
             this.label3.TabIndex = 3;
             this.label3.Text = "Tên lớp";
             // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(3, 211);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(85, 15);
-            this.label4.TabIndex = 1;
-            this.label4.Text = "Số sinh viên";
-            // 
             // IDLop_tbx
             // 
             this.IDLop_tbx.Location = new System.Drawing.Point(96, 93);
             this.IDLop_tbx.Name = "IDLop_tbx";
             this.IDLop_tbx.Size = new System.Drawing.Size(203, 22);
-            this.IDLop_tbx.TabIndex = 0;
+            this.IDLop_tbx.TabIndex = 1;
             // 
             // label2
             // 
@@ -216,7 +195,7 @@
             this.Quaylai_btn.Location = new System.Drawing.Point(454, 482);
             this.Quaylai_btn.Name = "Quaylai_btn";
             this.Quaylai_btn.Size = new System.Drawing.Size(208, 49);
-            this.Quaylai_btn.TabIndex = 6;
+            this.Quaylai_btn.TabIndex = 9;
             this.Quaylai_btn.Text = "Quay lại trang";
             this.Quaylai_btn.UseVisualStyleBackColor = true;
             this.Quaylai_btn.Click += new System.EventHandler(this.Quaylai_btn_Click);
@@ -231,13 +210,12 @@
             this.dataGridView1.Size = new System.Drawing.Size(648, 460);
             this.dataGridView1.TabIndex = 0;
             this.dataGridView1.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellClick);
-            this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
             // QuanLyLop
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1016, 531);
+            this.ClientSize = new System.Drawing.Size(1034, 555);
             this.Controls.Add(this.splitContainer1);
             this.Name = "QuanLyLop";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
@@ -261,7 +239,6 @@
         private System.Windows.Forms.Button Them1_btn;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox IDLop_tbx;
         private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.Button Lammoi1_btn;
         private System.Windows.Forms.Button Xoa1_btn;
@@ -269,7 +246,6 @@
         private System.Windows.Forms.Button Quaylai_btn;
         private System.Windows.Forms.TextBox Note_tbx;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.TextBox SoSV_tbx;
-        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.TextBox IDLop_tbx;
     }
 }

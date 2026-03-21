@@ -29,8 +29,8 @@
         private void InitializeComponent()
         {
             this.splitContainer1 = new System.Windows.Forms.SplitContainer();
+            this.Lop_cbx = new System.Windows.Forms.ComboBox();
             this.Lammoi_btn = new System.Windows.Forms.Button();
-            this.Class_tbx = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             this.label1 = new System.Windows.Forms.Label();
@@ -64,8 +64,8 @@
             // splitContainer1.Panel1
             // 
             this.splitContainer1.Panel1.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.splitContainer1.Panel1.Controls.Add(this.Lop_cbx);
             this.splitContainer1.Panel1.Controls.Add(this.Lammoi_btn);
-            this.splitContainer1.Panel1.Controls.Add(this.Class_tbx);
             this.splitContainer1.Panel1.Controls.Add(this.label2);
             this.splitContainer1.Panel1.Controls.Add(this.dateTimePicker1);
             this.splitContainer1.Panel1.Controls.Add(this.label1);
@@ -91,6 +91,17 @@
             this.splitContainer1.SplitterDistance = 355;
             this.splitContainer1.TabIndex = 1;
             // 
+            // Lop_cbx
+            // 
+            this.Lop_cbx.FormattingEnabled = true;
+            this.Lop_cbx.Items.AddRange(new object[] {
+            "CNTT1 - Lớp CNTT1",
+            "CNTT2 - Lớp CNTT2"});
+            this.Lop_cbx.Location = new System.Drawing.Point(25, 357);
+            this.Lop_cbx.Name = "Lop_cbx";
+            this.Lop_cbx.Size = new System.Drawing.Size(307, 24);
+            this.Lop_cbx.TabIndex = 8;
+            // 
             // Lammoi_btn
             // 
             this.Lammoi_btn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
@@ -102,13 +113,6 @@
             this.Lammoi_btn.Text = "Làm mới";
             this.Lammoi_btn.UseVisualStyleBackColor = false;
             this.Lammoi_btn.Click += new System.EventHandler(this.Lammoi_btn_Click);
-            // 
-            // Class_tbx
-            // 
-            this.Class_tbx.Location = new System.Drawing.Point(25, 354);
-            this.Class_tbx.Name = "Class_tbx";
-            this.Class_tbx.Size = new System.Drawing.Size(311, 22);
-            this.Class_tbx.TabIndex = 3;
             // 
             // label2
             // 
@@ -252,7 +256,7 @@
             // 
             this.Quanlylop_btn.BackColor = System.Drawing.Color.IndianRed;
             this.Quanlylop_btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Quanlylop_btn.Location = new System.Drawing.Point(10, 515);
+            this.Quanlylop_btn.Location = new System.Drawing.Point(500, 12);
             this.Quanlylop_btn.Name = "Quanlylop_btn";
             this.Quanlylop_btn.Size = new System.Drawing.Size(170, 49);
             this.Quanlylop_btn.TabIndex = 10;
@@ -317,7 +321,6 @@
         private System.Windows.Forms.Button Xoa_btn;
         private System.Windows.Forms.DateTimePicker dateTimePicker1;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox Class_tbx;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.Button Lammoi_btn;
@@ -325,5 +328,6 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.TextBox Tim_tbx;
         private System.Windows.Forms.Button Tim_btn;
+        private System.Windows.Forms.ComboBox Lop_cbx;
     }
 }

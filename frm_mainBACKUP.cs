@@ -20,6 +20,7 @@ namespace QLSV
         private void frm_main_Load(object sender, EventArgs e)
         {
             LoadData("");
+            LoadComboBoxLop();
         }
 
         private void LoadData(string searchKey)
@@ -78,7 +79,7 @@ namespace QLSV
                     dateTimePicker1.Value = dt;
                 }
 
-                Class_tbx.Text = row.Cells["Lớp"].Value.ToString();
+                Lop_cbx.Text = row.Cells["Lớp"].Value.ToString();
 
                 MSSV_tbx.Enabled = false;
             }
@@ -88,7 +89,8 @@ namespace QLSV
         {
             MSSV_tbx.Clear();
             Name_tbx.Clear();
-            Class_tbx.Clear();
+            Lop_cbx.SelectedIndex = -1; //lệnh này là bỏ chọn
+            Lop_cbx.Text = "";          //lệnh này là xóa chữ đang gõ
             dateTimePicker1.Value = DateTime.Today;
             Tim_tbx.Clear();
 
@@ -117,7 +119,7 @@ namespace QLSV
                     cmd.Parameters.AddWithValue("@mssv", MSSV_tbx.Text.Trim());
                     cmd.Parameters.AddWithValue("@ten", Name_tbx.Text.Trim());
                     cmd.Parameters.AddWithValue("@ngay", dateTimePicker1.Value.Date);
-                    cmd.Parameters.AddWithValue("@lop", Class_tbx.Text.Trim());
+                    cmd.Parameters.AddWithValue("@lop", Lop_cbx.SelectedValue.ToString());
 
                     cmd.ExecuteNonQuery(); 
 
@@ -153,7 +155,7 @@ namespace QLSV
                         cmd.Parameters.AddWithValue("@mssv", MSSV_tbx.Text.Trim());
                         cmd.Parameters.AddWithValue("@ten", Name_tbx.Text.Trim());
                         cmd.Parameters.AddWithValue("@ngay", dateTimePicker1.Value.Date);
-                        cmd.Parameters.AddWithValue("@lop", Class_tbx.Text.Trim());
+                        cmd.Parameters.AddWithValue("@lop", Lop_cbx.SelectedValue.ToString());
 
                         cmd.ExecuteNonQuery();
 
@@ -214,10 +216,35 @@ namespace QLSV
             LoadData(keyword); 
         }
 
-    
+        private void LoadComboBoxLop()
+        {
+            using (SqlConnection conn = new SqlConnection(connectionString))
+            {
+                try
+                {
+                    conn.Open();
+                    //lấy ds lớp từ bảng Lop trong SQL
+                    string query = "SELECT IdLop, TenLop FROM Lop";
+                    SqlDataAdapter da = new SqlDataAdapter(query, conn);
+                    DataTable dt = new DataTable();
+                    da.Fill(dt);
+
+                    //đổ dữ liệu vào cbx
+                    Lop_cbx.DataSource = dt;
+                    Lop_cbx.DisplayMember = "Chọn Lớp"; 
+                    Lop_cbx.ValueMember = "IdLop";
+                    Lop_cbx.SelectedIndex = -1;
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show("Lỗi tải danh sách lớp: " + ex.Message);
+                }
+            }
+        }
+
         private void button1_Click(object sender, EventArgs e) 
         {
-            QuanLyLop f = new QuanLyLop();
+            frm_QuanLyLopBACKUP f = new frm_QuanLyLopBACKUP();
             f.Show();
             this.Hide();
         }

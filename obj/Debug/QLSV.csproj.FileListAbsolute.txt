@@ -10,3 +10,5 @@ C:\Users\MSI\source\repos\Du Lieu Hoc Tap C#\Winform\QLSV\bin\Debug\QLSV.pdb
 C:\Users\MSI\source\repos\Du Lieu Hoc Tap C#\Winform\QLSV\obj\Debug\QLSV.exe
 C:\Users\MSI\source\repos\Du Lieu Hoc Tap C#\Winform\QLSV\obj\Debug\QLSV.pdb
 C:\Users\MSI\source\repos\Du Lieu Hoc Tap C#\Winform\QLSV\obj\Debug\QLSV.QuanLyLop.resources
+C:\Users\MSI\source\repos\Du Lieu Hoc Tap C#\Winform\QLSV\obj\Debug\QLSV.frm_TrangChu.resources
+C:\Users\MSI\source\repos\Du Lieu Hoc Tap C#\Winform\QLSV\obj\Debug\QLSV.frm_DanhSachSV_TheoLop.resources

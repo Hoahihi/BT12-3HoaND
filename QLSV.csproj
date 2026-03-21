@@ -46,17 +46,29 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="frm_DanhSachSV_TheoLop.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_DanhSachSV_TheoLop.Designer.cs">
+      <DependentUpon>frm_DanhSachSV_TheoLop.cs</DependentUpon>
+    </Compile>
     <Compile Include="frm_login.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="frm_login.Designer.cs">
       <DependentUpon>frm_login.cs</DependentUpon>
     </Compile>
-    <Compile Include="frm_main.cs">
+    <Compile Include="frm_mainBACKUP.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frm_main.Designer.cs">
-      <DependentUpon>frm_main.cs</DependentUpon>
+    <Compile Include="frm_mainBACKUP.Designer.cs">
+      <DependentUpon>frm_mainBACKUP.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_TrangChu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_TrangChu.Designer.cs">
+      <DependentUpon>frm_TrangChu.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -65,25 +77,31 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <Compile Include="QuanLyLop.cs">
+    <Compile Include="frm_QuanLyLopBACKUP.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="QuanLyLop.Designer.cs">
-      <DependentUpon>QuanLyLop.cs</DependentUpon>
+    <Compile Include="frm_QuanLyLopBACKUP.Designer.cs">
+      <DependentUpon>frm_QuanLyLopBACKUP.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="frm_DanhSachSV_TheoLop.resx">
+      <DependentUpon>frm_DanhSachSV_TheoLop.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frm_login.resx">
       <DependentUpon>frm_login.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frm_main.resx">
-      <DependentUpon>frm_main.cs</DependentUpon>
+    <EmbeddedResource Include="frm_mainBACKUP.resx">
+      <DependentUpon>frm_mainBACKUP.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_TrangChu.resx">
+      <DependentUpon>frm_TrangChu.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <SubType>Designer</SubType>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <EmbeddedResource Include="QuanLyLop.resx">
-      <DependentUpon>QuanLyLop.cs</DependentUpon>
+    <EmbeddedResource Include="frm_QuanLyLopBACKUP.resx">
+      <DependentUpon>frm_QuanLyLopBACKUP.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

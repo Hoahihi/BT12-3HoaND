@@ -3,32 +3,52 @@
   "WorkspaceRootPath": "C:\\Users\\MSI\\source\\repos\\Du Lieu Hoc Tap C#\\Winform\\QLSV\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A178A2D1-7423-41B6-8D96-4B8470BC4AA7}|QLSV.csproj|c:\\users\\msi\\source\\repos\\du lieu hoc tap c#\\winform\\qlsv\\frm_main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A178A2D1-7423-41B6-8D96-4B8470BC4AA7}|QLSV.csproj|solutionrelative:frm_main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A178A2D1-7423-41B6-8D96-4B8470BC4AA7}|QLSV.csproj|c:\\users\\msi\\source\\repos\\du lieu hoc tap c#\\winform\\qlsv\\frm_trangchu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A178A2D1-7423-41B6-8D96-4B8470BC4AA7}|QLSV.csproj|solutionrelative:frm_trangchu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A178A2D1-7423-41B6-8D96-4B8470BC4AA7}|QLSV.csproj|C:\\Users\\MSI\\source\\repos\\Du Lieu Hoc Tap C#\\Winform\\QLSV\\frm_main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{A178A2D1-7423-41B6-8D96-4B8470BC4AA7}|QLSV.csproj|solutionrelative:frm_main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{A178A2D1-7423-41B6-8D96-4B8470BC4AA7}|QLSV.csproj|C:\\Users\\MSI\\source\\repos\\Du Lieu Hoc Tap C#\\Winform\\QLSV\\frm_trangchu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A178A2D1-7423-41B6-8D96-4B8470BC4AA7}|QLSV.csproj|solutionrelative:frm_trangchu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A178A2D1-7423-41B6-8D96-4B8470BC4AA7}|QLSV.csproj|c:\\users\\msi\\source\\repos\\du lieu hoc tap c#\\winform\\qlsv\\frm_main.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A178A2D1-7423-41B6-8D96-4B8470BC4AA7}|QLSV.csproj|solutionrelative:frm_main.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A178A2D1-7423-41B6-8D96-4B8470BC4AA7}|QLSV.csproj|c:\\users\\msi\\source\\repos\\du lieu hoc tap c#\\winform\\qlsv\\frm_quanlylopbackup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A178A2D1-7423-41B6-8D96-4B8470BC4AA7}|QLSV.csproj|solutionrelative:frm_quanlylopbackup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A178A2D1-7423-41B6-8D96-4B8470BC4AA7}|QLSV.csproj|C:\\Users\\MSI\\source\\repos\\Du Lieu Hoc Tap C#\\Winform\\QLSV\\quanlylop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{A178A2D1-7423-41B6-8D96-4B8470BC4AA7}|QLSV.csproj|solutionrelative:quanlylop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A178A2D1-7423-41B6-8D96-4B8470BC4AA7}|QLSV.csproj|C:\\Users\\MSI\\source\\repos\\Du Lieu Hoc Tap C#\\Winform\\QLSV\\quanlylop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A178A2D1-7423-41B6-8D96-4B8470BC4AA7}|QLSV.csproj|solutionrelative:quanlylop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A178A2D1-7423-41B6-8D96-4B8470BC4AA7}|QLSV.csproj|c:\\users\\msi\\source\\repos\\du lieu hoc tap c#\\winform\\qlsv\\frm_mainbackup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A178A2D1-7423-41B6-8D96-4B8470BC4AA7}|QLSV.csproj|solutionrelative:frm_mainbackup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A178A2D1-7423-41B6-8D96-4B8470BC4AA7}|QLSV.csproj|C:\\Users\\MSI\\source\\repos\\Du Lieu Hoc Tap C#\\Winform\\QLSV\\frm_login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{A178A2D1-7423-41B6-8D96-4B8470BC4AA7}|QLSV.csproj|solutionrelative:frm_login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{A178A2D1-7423-41B6-8D96-4B8470BC4AA7}|QLSV.csproj|C:\\Users\\MSI\\source\\repos\\Du Lieu Hoc Tap C#\\Winform\\QLSV\\frm_danhsachsv_theolop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A178A2D1-7423-41B6-8D96-4B8470BC4AA7}|QLSV.csproj|solutionrelative:frm_danhsachsv_theolop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A178A2D1-7423-41B6-8D96-4B8470BC4AA7}|QLSV.csproj|C:\\Users\\MSI\\source\\repos\\Du Lieu Hoc Tap C#\\Winform\\QLSV\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A178A2D1-7423-41B6-8D96-4B8470BC4AA7}|QLSV.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A178A2D1-7423-41B6-8D96-4B8470BC4AA7}|QLSV.csproj|C:\\Users\\MSI\\source\\repos\\Du Lieu Hoc Tap C#\\Winform\\QLSV\\properties\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A178A2D1-7423-41B6-8D96-4B8470BC4AA7}|QLSV.csproj|solutionrelative:properties\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A178A2D1-7423-41B6-8D96-4B8470BC4AA7}|QLSV.csproj|C:\\Users\\MSI\\source\\repos\\Du Lieu Hoc Tap C#\\Winform\\QLSV\\frm_danhsachsv_theolop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A178A2D1-7423-41B6-8D96-4B8470BC4AA7}|QLSV.csproj|solutionrelative:frm_danhsachsv_theolop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A178A2D1-7423-41B6-8D96-4B8470BC4AA7}|QLSV.csproj|c:\\users\\msi\\source\\repos\\du lieu hoc tap c#\\winform\\qlsv\\frm_mainbackup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A178A2D1-7423-41B6-8D96-4B8470BC4AA7}|QLSV.csproj|solutionrelative:frm_mainbackup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A178A2D1-7423-41B6-8D96-4B8470BC4AA7}|QLSV.csproj|C:\\Users\\MSI\\source\\repos\\Du Lieu Hoc Tap C#\\Winform\\QLSV\\frm_login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A178A2D1-7423-41B6-8D96-4B8470BC4AA7}|QLSV.csproj|solutionrelative:frm_login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A178A2D1-7423-41B6-8D96-4B8470BC4AA7}|QLSV.csproj|c:\\users\\msi\\source\\repos\\du lieu hoc tap c#\\winform\\qlsv\\frm_quanlylopbackup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A178A2D1-7423-41B6-8D96-4B8470BC4AA7}|QLSV.csproj|solutionrelative:frm_quanlylopbackup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,19 +58,32 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "frm_main.cs",
-              "DocumentMoniker": "C:\\Users\\MSI\\source\\repos\\Du Lieu Hoc Tap C#\\Winform\\QLSV\\frm_main.cs",
-              "RelativeDocumentMoniker": "frm_main.cs",
-              "ToolTip": "C:\\Users\\MSI\\source\\repos\\Du Lieu Hoc Tap C#\\Winform\\QLSV\\frm_main.cs",
-              "RelativeToolTip": "frm_main.cs",
-              "ViewState": "AgIAAGYAAAAAAAAAAAAQwIYAAAAvAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "frm_TrangChu.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\MSI\\source\\repos\\Du Lieu Hoc Tap C#\\Winform\\QLSV\\frm_TrangChu.cs",
+              "RelativeDocumentMoniker": "frm_TrangChu.cs",
+              "ToolTip": "C:\\Users\\MSI\\source\\repos\\Du Lieu Hoc Tap C#\\Winform\\QLSV\\frm_TrangChu.cs [Design]",
+              "RelativeToolTip": "frm_TrangChu.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-13T00:21:22.316Z",
+              "WhenOpened": "2026-03-21T07:35:54.94Z",
+              "IsPinned": true,
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "frm_TrangChu.cs",
+              "DocumentMoniker": "C:\\Users\\MSI\\source\\repos\\Du Lieu Hoc Tap C#\\Winform\\QLSV\\frm_TrangChu.cs",
+              "RelativeDocumentMoniker": "frm_TrangChu.cs",
+              "ToolTip": "C:\\Users\\MSI\\source\\repos\\Du Lieu Hoc Tap C#\\Winform\\QLSV\\frm_TrangChu.cs",
+              "RelativeToolTip": "frm_TrangChu.cs",
+              "ViewState": "AgIAAAcCAAAAAAAAAAAIwBMCAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-21T08:39:30.037Z",
               "IsPinned": true,
               "EditorCaption": ""
             },
@@ -64,78 +97,125 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "frm_main.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\MSI\\source\\repos\\Du Lieu Hoc Tap C#\\Winform\\QLSV\\frm_main.Designer.cs",
-              "RelativeDocumentMoniker": "frm_main.Designer.cs",
-              "ToolTip": "C:\\Users\\MSI\\source\\repos\\Du Lieu Hoc Tap C#\\Winform\\QLSV\\frm_main.Designer.cs",
-              "RelativeToolTip": "frm_main.Designer.cs",
-              "ViewState": "AgIAAJ4AAAAAAAAAAAAQwLEAAAApAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "frm_mainBACKUP.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\MSI\\source\\repos\\Du Lieu Hoc Tap C#\\Winform\\QLSV\\frm_mainBACKUP.cs",
+              "RelativeDocumentMoniker": "frm_mainBACKUP.cs",
+              "ToolTip": "C:\\Users\\MSI\\source\\repos\\Du Lieu Hoc Tap C#\\Winform\\QLSV\\frm_mainBACKUP.cs [Design]",
+              "RelativeToolTip": "frm_mainBACKUP.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-14T12:44:10.481Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-20T00:54:07.582Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "QuanLyLop.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\MSI\\source\\repos\\Du Lieu Hoc Tap C#\\Winform\\QLSV\\QuanLyLop.cs",
-              "RelativeDocumentMoniker": "QuanLyLop.cs",
-              "ToolTip": "C:\\Users\\MSI\\source\\repos\\Du Lieu Hoc Tap C#\\Winform\\QLSV\\QuanLyLop.cs [Design]",
-              "RelativeToolTip": "QuanLyLop.cs [Design]",
+              "DocumentIndex": 2,
+              "Title": "frm_QuanLyLopBACKUP.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\MSI\\source\\repos\\Du Lieu Hoc Tap C#\\Winform\\QLSV\\frm_QuanLyLopBACKUP.cs",
+              "RelativeDocumentMoniker": "frm_QuanLyLopBACKUP.cs",
+              "ToolTip": "C:\\Users\\MSI\\source\\repos\\Du Lieu Hoc Tap C#\\Winform\\QLSV\\frm_QuanLyLopBACKUP.cs [Design]",
+              "RelativeToolTip": "frm_QuanLyLopBACKUP.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-12T23:39:21.285Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "frm_login.cs",
-              "DocumentMoniker": "C:\\Users\\MSI\\source\\repos\\Du Lieu Hoc Tap C#\\Winform\\QLSV\\frm_login.cs",
-              "RelativeDocumentMoniker": "frm_login.cs",
-              "ToolTip": "C:\\Users\\MSI\\source\\repos\\Du Lieu Hoc Tap C#\\Winform\\QLSV\\frm_login.cs",
-              "RelativeToolTip": "frm_login.cs",
-              "ViewState": "AgIAABwAAAAAAAAAAAAAABcAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-13T01:10:07.376Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "frm_main.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\MSI\\source\\repos\\Du Lieu Hoc Tap C#\\Winform\\QLSV\\frm_main.cs",
-              "RelativeDocumentMoniker": "frm_main.cs",
-              "ToolTip": "C:\\Users\\MSI\\source\\repos\\Du Lieu Hoc Tap C#\\Winform\\QLSV\\frm_main.cs [Design]",
-              "RelativeToolTip": "frm_main.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-12T23:47:34.795Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "QuanLyLop.cs",
-              "DocumentMoniker": "C:\\Users\\MSI\\source\\repos\\Du Lieu Hoc Tap C#\\Winform\\QLSV\\QuanLyLop.cs",
-              "RelativeDocumentMoniker": "QuanLyLop.cs",
-              "ToolTip": "C:\\Users\\MSI\\source\\repos\\Du Lieu Hoc Tap C#\\Winform\\QLSV\\QuanLyLop.cs",
-              "RelativeToolTip": "QuanLyLop.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAYwB8AAABbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-13T01:06:05.891Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
               "Title": "frm_login.cs [Design]",
               "DocumentMoniker": "C:\\Users\\MSI\\source\\repos\\Du Lieu Hoc Tap C#\\Winform\\QLSV\\frm_login.cs",
               "RelativeDocumentMoniker": "frm_login.cs",
               "ToolTip": "C:\\Users\\MSI\\source\\repos\\Du Lieu Hoc Tap C#\\Winform\\QLSV\\frm_login.cs [Design]",
               "RelativeToolTip": "frm_login.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-13T00:04:03.106Z",
+              "WhenOpened": "2026-03-21T09:02:47.111Z",
               "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "frm_DanhSachSV_TheoLop.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\MSI\\source\\repos\\Du Lieu Hoc Tap C#\\Winform\\QLSV\\frm_DanhSachSV_TheoLop.cs",
+              "RelativeDocumentMoniker": "frm_DanhSachSV_TheoLop.cs",
+              "ToolTip": "C:\\Users\\MSI\\source\\repos\\Du Lieu Hoc Tap C#\\Winform\\QLSV\\frm_DanhSachSV_TheoLop.cs [Design]",
+              "RelativeToolTip": "frm_DanhSachSV_TheoLop.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-21T09:50:31.285Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\MSI\\source\\repos\\Du Lieu Hoc Tap C#\\Winform\\QLSV\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\MSI\\source\\repos\\Du Lieu Hoc Tap C#\\Winform\\QLSV\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-21T15:31:18.059Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AssemblyInfo.cs",
+              "DocumentMoniker": "C:\\Users\\MSI\\source\\repos\\Du Lieu Hoc Tap C#\\Winform\\QLSV\\Properties\\AssemblyInfo.cs",
+              "RelativeDocumentMoniker": "Properties\\AssemblyInfo.cs",
+              "ToolTip": "C:\\Users\\MSI\\source\\repos\\Du Lieu Hoc Tap C#\\Winform\\QLSV\\Properties\\AssemblyInfo.cs",
+              "RelativeToolTip": "Properties\\AssemblyInfo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-21T15:31:24.243Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "frm_DanhSachSV_TheoLop.cs",
+              "DocumentMoniker": "C:\\Users\\MSI\\source\\repos\\Du Lieu Hoc Tap C#\\Winform\\QLSV\\frm_DanhSachSV_TheoLop.cs",
+              "RelativeDocumentMoniker": "frm_DanhSachSV_TheoLop.cs",
+              "ToolTip": "C:\\Users\\MSI\\source\\repos\\Du Lieu Hoc Tap C#\\Winform\\QLSV\\frm_DanhSachSV_TheoLop.cs",
+              "RelativeToolTip": "frm_DanhSachSV_TheoLop.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-21T09:51:24.994Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "frm_mainBACKUP.cs",
+              "DocumentMoniker": "C:\\Users\\MSI\\source\\repos\\Du Lieu Hoc Tap C#\\Winform\\QLSV\\frm_mainBACKUP.cs",
+              "RelativeDocumentMoniker": "frm_mainBACKUP.cs",
+              "ToolTip": "C:\\Users\\MSI\\source\\repos\\Du Lieu Hoc Tap C#\\Winform\\QLSV\\frm_mainBACKUP.cs",
+              "RelativeToolTip": "frm_mainBACKUP.cs",
+              "ViewState": "AgIAAOkAAAAAAAAAAADgv/0AAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-13T00:21:22.316Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "frm_login.cs",
+              "DocumentMoniker": "C:\\Users\\MSI\\source\\repos\\Du Lieu Hoc Tap C#\\Winform\\QLSV\\frm_login.cs",
+              "RelativeDocumentMoniker": "frm_login.cs",
+              "ToolTip": "C:\\Users\\MSI\\source\\repos\\Du Lieu Hoc Tap C#\\Winform\\QLSV\\frm_login.cs",
+              "RelativeToolTip": "frm_login.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAArwB4AAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-21T07:38:04.481Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "frm_QuanLyLopBACKUP.cs",
+              "DocumentMoniker": "C:\\Users\\MSI\\source\\repos\\Du Lieu Hoc Tap C#\\Winform\\QLSV\\frm_QuanLyLopBACKUP.cs",
+              "RelativeDocumentMoniker": "frm_QuanLyLopBACKUP.cs",
+              "ToolTip": "C:\\Users\\MSI\\source\\repos\\Du Lieu Hoc Tap C#\\Winform\\QLSV\\frm_QuanLyLopBACKUP.cs",
+              "RelativeToolTip": "frm_QuanLyLopBACKUP.cs",
+              "ViewState": "AgIAAJoAAAAAAAAAAADgv64AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-13T01:06:05.891Z",
+              "EditorCaption": ""
             }
           ]
         }

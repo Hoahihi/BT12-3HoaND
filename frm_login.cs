@@ -24,11 +24,11 @@ namespace QLSV
             string password = Password_tbx.Text;
             if (username == "" && password == "")
             {
-                //dang nhap thanh cong
-                //chuyen den form chinh
-                frm_main main = new frm_main(); 
-                main.Show(); //hien thi va chinh sua duoc sv va mssv
-                this.Hide();
+                // Nếu đăng nhập đúng thì chạy đoạn này:
+                this.Hide(); // Ẩn form login đi
+                frm_TrangChu trangChu = new frm_TrangChu();
+                trangChu.ShowDialog(); // Mở form Trang chủ lên
+                this.Close(); // Khi đóng form trang chủ thì tắt luôn phần mềm
             }
             else
             {
