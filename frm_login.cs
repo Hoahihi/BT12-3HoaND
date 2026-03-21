@@ -22,13 +22,12 @@ namespace QLSV
         {
             string username = Username_tbx.Text;
             string password = Password_tbx.Text;
-            if (username == "" && password == "")
+            if (username == "ngduchoa" && password == "027421")
             {
-                // Nếu đăng nhập đúng thì chạy đoạn này:
-                this.Hide(); // Ẩn form login đi
+                this.Hide(); 
                 frm_TrangChu trangChu = new frm_TrangChu();
-                trangChu.ShowDialog(); // Mở form Trang chủ lên
-                this.Close(); // Khi đóng form trang chủ thì tắt luôn phần mềm
+                trangChu.ShowDialog(); 
+                this.Close();
             }
             else
             {

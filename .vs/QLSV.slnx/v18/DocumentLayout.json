@@ -11,11 +11,11 @@
       "RelativeMoniker": "D:0:0:{A178A2D1-7423-41B6-8D96-4B8470BC4AA7}|QLSV.csproj|solutionrelative:frm_trangchu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A178A2D1-7423-41B6-8D96-4B8470BC4AA7}|QLSV.csproj|c:\\users\\msi\\source\\repos\\du lieu hoc tap c#\\winform\\qlsv\\frm_quanlylopbackup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{A178A2D1-7423-41B6-8D96-4B8470BC4AA7}|QLSV.csproj|C:\\Users\\MSI\\source\\repos\\Du Lieu Hoc Tap C#\\Winform\\QLSV\\frm_quanlylopbackup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{A178A2D1-7423-41B6-8D96-4B8470BC4AA7}|QLSV.csproj|solutionrelative:frm_quanlylopbackup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A178A2D1-7423-41B6-8D96-4B8470BC4AA7}|QLSV.csproj|c:\\users\\msi\\source\\repos\\du lieu hoc tap c#\\winform\\qlsv\\frm_mainbackup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{A178A2D1-7423-41B6-8D96-4B8470BC4AA7}|QLSV.csproj|C:\\Users\\MSI\\source\\repos\\Du Lieu Hoc Tap C#\\Winform\\QLSV\\frm_mainbackup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{A178A2D1-7423-41B6-8D96-4B8470BC4AA7}|QLSV.csproj|solutionrelative:frm_mainbackup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
@@ -39,7 +39,7 @@
       "RelativeMoniker": "D:0:0:{A178A2D1-7423-41B6-8D96-4B8470BC4AA7}|QLSV.csproj|solutionrelative:frm_danhsachsv_theolop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A178A2D1-7423-41B6-8D96-4B8470BC4AA7}|QLSV.csproj|c:\\users\\msi\\source\\repos\\du lieu hoc tap c#\\winform\\qlsv\\frm_mainbackup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A178A2D1-7423-41B6-8D96-4B8470BC4AA7}|QLSV.csproj|C:\\Users\\MSI\\source\\repos\\Du Lieu Hoc Tap C#\\Winform\\QLSV\\frm_mainbackup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A178A2D1-7423-41B6-8D96-4B8470BC4AA7}|QLSV.csproj|solutionrelative:frm_mainbackup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -47,7 +47,7 @@
       "RelativeMoniker": "D:0:0:{A178A2D1-7423-41B6-8D96-4B8470BC4AA7}|QLSV.csproj|solutionrelative:frm_login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A178A2D1-7423-41B6-8D96-4B8470BC4AA7}|QLSV.csproj|c:\\users\\msi\\source\\repos\\du lieu hoc tap c#\\winform\\qlsv\\frm_quanlylopbackup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A178A2D1-7423-41B6-8D96-4B8470BC4AA7}|QLSV.csproj|C:\\Users\\MSI\\source\\repos\\Du Lieu Hoc Tap C#\\Winform\\QLSV\\frm_quanlylopbackup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A178A2D1-7423-41B6-8D96-4B8470BC4AA7}|QLSV.csproj|solutionrelative:frm_quanlylopbackup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -81,7 +81,7 @@
               "RelativeDocumentMoniker": "frm_TrangChu.cs",
               "ToolTip": "C:\\Users\\MSI\\source\\repos\\Du Lieu Hoc Tap C#\\Winform\\QLSV\\frm_TrangChu.cs",
               "RelativeToolTip": "frm_TrangChu.cs",
-              "ViewState": "AgIAAAcCAAAAAAAAAAAIwBMCAAAcAAAAAAAAAA==",
+              "ViewState": "AgIAAOwBAAAAAAAAAAAAABECAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-21T08:39:30.037Z",
               "IsPinned": true,
@@ -104,8 +104,7 @@
               "ToolTip": "C:\\Users\\MSI\\source\\repos\\Du Lieu Hoc Tap C#\\Winform\\QLSV\\frm_mainBACKUP.cs [Design]",
               "RelativeToolTip": "frm_mainBACKUP.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-20T00:54:07.582Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2026-03-20T00:54:07.582Z"
             },
             {
               "$type": "Document",
@@ -116,8 +115,7 @@
               "ToolTip": "C:\\Users\\MSI\\source\\repos\\Du Lieu Hoc Tap C#\\Winform\\QLSV\\frm_QuanLyLopBACKUP.cs [Design]",
               "RelativeToolTip": "frm_QuanLyLopBACKUP.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-12T23:39:21.285Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2026-03-12T23:39:21.285Z"
             },
             {
               "$type": "Document",
@@ -128,8 +126,7 @@
               "ToolTip": "C:\\Users\\MSI\\source\\repos\\Du Lieu Hoc Tap C#\\Winform\\QLSV\\frm_login.cs [Design]",
               "RelativeToolTip": "frm_login.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-21T09:02:47.111Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2026-03-21T09:02:47.111Z"
             },
             {
               "$type": "Document",
@@ -188,8 +185,7 @@
               "RelativeToolTip": "frm_mainBACKUP.cs",
               "ViewState": "AgIAAOkAAAAAAAAAAADgv/0AAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-13T00:21:22.316Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-13T00:21:22.316Z"
             },
             {
               "$type": "Document",
@@ -201,8 +197,7 @@
               "RelativeToolTip": "frm_login.cs",
               "ViewState": "AgIAABAAAAAAAAAAAAArwB4AAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-21T07:38:04.481Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-21T07:38:04.481Z"
             },
             {
               "$type": "Document",
@@ -214,8 +209,7 @@
               "RelativeToolTip": "frm_QuanLyLopBACKUP.cs",
               "ViewState": "AgIAAJoAAAAAAAAAAADgv64AAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-13T01:06:05.891Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-13T01:06:05.891Z"
             }
           ]
         }
